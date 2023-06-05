@@ -1,0 +1,18 @@
+316  git init
+317  git remote add origin https://github.com/lizethalonso/20230605-LizethAlonso.git
+318  git remote -v
+319  touch comandos.txt main.js index.html    
+320  git add .
+321  git commit -m "Commit 01 de LizethAlonso"  322  git status
+323  git push origin main
+324  git branch feature
+325  git checkout feature
+326  mkdir Hardware Software SeguridadInformatica
+327  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+328  git add .
+329  git commit -m "Commit 02 de LizethAlonso"  330  git push origin feature
+331  git checkout main
+332  mv main.js resumenHardware.txt
+333  mv index.html resumenSoftware.txt        
+334  hystory
+335  history
